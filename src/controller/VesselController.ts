@@ -1,6 +1,6 @@
-import VesselService from "../service/VesselService";
+import { VesselService } from "../service";
 import { VesselScheduleResponse } from "../models";
-import getPercentile from "../util/getPercentile";
+import { getPercentile, ascendingSort } from "../util";
 
 export default class VesselController {
 
@@ -30,7 +30,7 @@ export default class VesselController {
       return b[1] - a[1];
     });
 
-    portCallDurations.sort((a, b) => a - b);
+    portCallDurations.sort(ascendingSort);
     const percentiles = [
       getPercentile(portCallDurations, 5),
       getPercentile(portCallDurations, 20),
