@@ -1,13 +1,26 @@
 import { Vessel, VesselScheduleResponse } from "../models";
 import axios, { AxiosInstance } from "axios";
+import moment from "moment";
 
 export default class VesselService {
   private static instance: AxiosInstance;
 
+  static transformer = (data: any) => {
+    function reviver(key: string, value: any) {
+      if (["arrival", "departure", "createdDate"].includes(key) && value) {
+        return moment(value);
+      }
+      return value;
+    }
+
+    return JSON.parse(data, reviver);
+  };
+
   static init(baseURL: string = "https://import-coding-challenge-api.portchain.com/api/v2") {
     this.instance = axios.create({
       baseURL,
-      timeout: 10000
+      timeout: 10000,
+      transformResponse: [this.transformer]
     });
   }
 

@@ -1,3 +1,5 @@
+import { Moment } from "moment";
+
 export interface Vessel {
   imo: number;
   name: string;
@@ -10,16 +12,16 @@ export interface Port {
 
 export interface LogEntry {
   updatedField: string;
-  arrival?: string;
-  departure?: string;
+  arrival?: Moment;
+  departure?: Moment;
   isOmitted?: boolean;
-  createdDate: string;
+  createdDate: Moment;
 }
 
 export interface PortCall {
-  arrival: string;
-  departure: string;
-  createdDate: string;
+  arrival: Moment;
+  departure: Moment;
+  createdDate: Moment;
   isOmitted: boolean;
   service: string;
   port: Port;

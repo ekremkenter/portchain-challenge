@@ -26,7 +26,7 @@ describe("VesselService Tests", function() {
     expect(scheduleResponse.portCalls[0]).to.haveOwnProperty("arrival");
     expect(scheduleResponse.portCalls[0]).to.haveOwnProperty("port");
     expect(scheduleResponse.portCalls[0]).to.haveOwnProperty("logEntries");
-    console.log(scheduleResponse.portCalls[0]);
+    console.log(scheduleResponse.portCalls[0].createdDate.format("DD MM YYYY"));
   });
 
 });

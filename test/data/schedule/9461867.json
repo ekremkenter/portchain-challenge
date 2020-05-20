@@ -1,0 +1,3878 @@
+{
+  "vessel": {
+    "imo": 9461867,
+    "name": "APL CHONGQING"
+  },
+  "portCalls": [
+    {
+      "arrival": "2019-01-01T12:42:00+00:00",
+      "departure": "2019-01-02T00:00:00+00:00",
+      "createdDate": "2018-09-04T00:39:48.290697+00:00",
+      "isOmitted": false,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "SAJED",
+        "name": "Jeddah"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-01T15:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:48.290697+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-02T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:48.290697+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2018-09-04T09:57:44.582855+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2018-09-05T00:07:12.87027+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-02T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-09T03:27:55.026766+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-02T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-09T05:44:28.941611+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-02T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-12T03:47:26.750646+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-02T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-16T20:50:07.751442+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-01T12:42:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-01T13:46:24.69325+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-02T00:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-02T01:00:17.984241+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-01-09T22:36:00+00:00",
+      "departure": "2019-01-10T17:00:00+00:00",
+      "createdDate": "2018-09-04T00:39:48.868292+00:00",
+      "isOmitted": false,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "MAPTM",
+        "name": "Tanger Med"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-10T10:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:48.868292+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-09T13:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:48.868292+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2018-09-04T09:57:44.874783+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2018-09-05T00:07:13.146353+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-09T16:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-11-29T09:04:35.627512+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-10T14:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-11-29T09:04:35.930227+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-09T15:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:15.217633+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-10T13:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:15.489061+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-10T12:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-21T10:57:19.34311+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-09T16:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:10.291928+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-10T13:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:10.636294+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-09T22:36:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-10T17:00:00.195356+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-10T17:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-10T17:00:00.491197+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-01-14T08:12:00+00:00",
+      "departure": "2019-01-15T03:06:00+00:00",
+      "createdDate": "2018-09-04T00:39:49.22785+00:00",
+      "isOmitted": false,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "NLRTM",
+        "name": "Rotterdam"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-14T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:49.22785+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-14T18:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:49.22785+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2018-09-04T09:57:45.162796+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2018-09-05T00:07:13.418361+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-15T03:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-19T11:30:44.980086+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-14T18:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-21T05:34:09.526407+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-15T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-21T10:57:21.723966+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-14T18:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-22T05:18:35.603452+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-15T03:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-09T09:05:13.970713+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-14T18:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-10T17:00:01.763576+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-14T08:12:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-14T08:32:34.087768+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-15T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-14T08:32:34.359286+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-15T03:06:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-15T03:58:54.528767+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-01-16T08:18:00+00:00",
+      "departure": "2019-01-17T14:42:00+00:00",
+      "createdDate": "2018-09-04T00:39:49.589841+00:00",
+      "isOmitted": false,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "DEHAM",
+        "name": "Hamburg"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-16T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:49.589841+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-17T23:01:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:49.589841+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2018-09-04T09:57:45.450757+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2018-09-05T00:07:13.697629+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-17T22:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-12T09:09:32.033527+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-16T08:18:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-16T08:53:52.915711+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-17T14:42:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-17T15:33:21.590138+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-01-19T08:00:00+00:00",
+      "departure": "2019-01-20T01:00:00+00:00",
+      "createdDate": "2018-09-04T00:39:50.165949+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "GBLGP",
+        "name": "London Gateway Port"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-19T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:50.165949+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-20T05:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:50.165949+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2018-09-04T09:57:45.742204+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2018-09-05T00:07:13.99489+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-20T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-12T09:09:32.733354+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-20T01:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-18T15:26:54.501695+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-19T08:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-18T15:26:54.501695+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-01-19T20:51:04.067856+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-01-20T21:00:00+00:00",
+      "departure": "2019-01-22T12:30:00+00:00",
+      "createdDate": "2018-09-04T00:39:50.741885+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "BEANR",
+        "name": "Antwerpen"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-20T21:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:50.741885+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-22T03:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:50.741885+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2018-09-04T09:57:46.03483+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2018-09-05T00:07:14.266975+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-22T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-18T08:21:46.952794+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-01-19T23:07:31.21525+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-22T12:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-22T09:55:15.998701+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-01-23T13:00:00+00:00",
+      "departure": "2019-01-24T05:00:00+00:00",
+      "createdDate": "2018-09-04T00:39:51.316823+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "FRLEH",
+        "name": "Le Havre"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-24T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:51.316823+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-23T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-09-04T00:39:51.316823+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2018-09-04T09:57:46.326913+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2018-09-05T00:07:14.545975+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-18T08:21:46.961642+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-01-27T07:00:00+00:00",
+      "departure": "2019-01-27T23:00:00+00:00",
+      "createdDate": "2018-10-04T00:13:22.447253+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "MAPTM",
+        "name": "Tanger Med"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-27T09:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:22.447253+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-28T00:01:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:22.447253+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-27T08:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:16.096321+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-27T23:01:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:16.366264+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-27T09:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:11.394251+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-28T00:01:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:11.722551+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-27T07:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-07T09:50:02.559173+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-27T23:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-07T09:50:02.852777+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T17:26:10.629324+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-01-19T23:07:31.220586+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T23:42:17.573188+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-01-20T04:33:32.144084+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-27T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-24T17:57:46.624294+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-28T04:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-24T17:57:46.624294+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-01-27T23:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-25T17:14:55.561461+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-01-27T07:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-25T17:14:55.561461+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-02-04T06:02:00+00:00",
+      "departure": "2019-02-04T18:47:00+00:00",
+      "createdDate": "2018-10-04T00:13:22.845425+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "SAJED",
+        "name": "Jeddah"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-04T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:22.845425+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-05T01:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:22.845425+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-04T20:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-12T03:47:27.362659+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T17:26:10.634305+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-01-20T03:53:51.820207+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-04T19:47:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-04T11:45:18.315605+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-04T06:02:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-02-04T11:45:18.315605+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-04T18:47:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-04T16:57:07.792649+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-02-10T15:18:00+00:00",
+      "departure": "2019-02-11T19:48:00+00:00",
+      "createdDate": "2018-10-04T00:13:23.226746+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "AEJEA",
+        "name": "Jebel Ali"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-10T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:23.226746+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-11T18:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:23.226746+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T16:44:15.576622+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-01-20T03:53:51.82763+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-10T15:18:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-02-10T17:54:37.351139+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-11T19:48:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-10T17:54:37.351139+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-02-13T18:00:00+00:00",
+      "departure": "2019-02-14T11:30:00+00:00",
+      "createdDate": "2018-10-04T00:13:23.839098+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "PKKHI",
+        "name": "Karachi"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-14T11:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:23.839098+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-13T18:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:23.839098+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-18T08:21:46.987408+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-02-16T04:30:00+00:00",
+      "departure": "2019-02-17T08:00:00+00:00",
+      "createdDate": "2018-10-04T00:13:24.219941+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "INNSA",
+        "name": "Jawaharlal Nehru (Nhava Sheva)"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-17T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:24.219941+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-16T04:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:24.219941+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-18T08:21:46.993726+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-02-18T12:30:00+00:00",
+      "departure": "2019-02-19T16:30:00+00:00",
+      "createdDate": "2018-10-04T00:13:24.829018+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "INMUN",
+        "name": "Mundra"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-19T16:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:24.829018+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-18T12:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-04T00:13:24.829018+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-18T08:21:47.000758+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-02-26T14:45:00+00:00",
+      "departure": "2019-02-27T01:45:00+00:00",
+      "createdDate": "2018-10-30T11:20:52.091561+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "SAJED",
+        "name": "Jeddah"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-26T15:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:20:52.091561+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-27T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:20:52.091561+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-27T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-28T06:53:21.508147+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-01-28T06:53:21.508147+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-17T02:05:06.343081+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-17T03:35:34.478239+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-02-26T14:45:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-02-20T15:59:13.704326+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-02-27T01:45:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-20T15:59:13.704326+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T21:30:01.146637+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-24T04:32:17.677298+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-06T18:00:00+00:00",
+      "departure": "2019-03-07T15:30:00+00:00",
+      "createdDate": "2018-10-30T11:20:55.36357+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "MAPTM",
+        "name": "Tanger Med"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-06T13:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:20:55.36357+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T10:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:20:55.36357+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-06T12:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:16.936252+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T09:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:17.206032+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-06T13:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:12.375166+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T10:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:12.703583+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-06T16:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-02-05T13:53:55.425464+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T13:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-05T13:53:55.425464+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-05T13:53:55.425464+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-17T02:05:06.343081+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-17T03:35:34.484392+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T21:30:01.146637+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-24T04:32:17.68435+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-06T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-04T16:46:05.063675+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T11:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-04T16:46:05.063675+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-06T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-05T18:01:27.120099+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T10:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-05T18:01:27.120099+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T06:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-06T16:29:15.079868+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-07T15:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-07T09:39:53.822137+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-06T18:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-07T09:39:53.822137+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-12T08:00:00+00:00",
+      "departure": "2019-03-13T15:00:00+00:00",
+      "createdDate": "2018-10-30T11:20:58.255625+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "NLRTM",
+        "name": "Rotterdam"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-11T18:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:20:58.255625+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-11T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:20:58.255625+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-10T06:15:51.977393+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-15T00:33:56.223265+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-15T01:17:22.552949+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-17T01:27:39.784546+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-17T03:35:34.490186+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T20:18:07.867635+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-24T04:32:17.691569+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-12T01:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-07T09:39:53.831359+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-11T05:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-07T09:39:53.831359+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-09T18:44:15.734356+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-10T04:14:05.064764+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-12T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-11T18:18:20.05556+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-13T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-11T18:18:20.05556+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-13T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T10:20:43.459443+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-12T08:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-12T17:50:25.796974+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-13T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T17:50:25.796974+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-13T15:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-13T10:37:34.907509+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-14T22:00:00+00:00",
+      "departure": "2019-03-16T16:00:00+00:00",
+      "createdDate": "2018-10-30T11:21:01.275668+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "DEHAM",
+        "name": "Hamburg"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-14T23:01:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:01.275668+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-13T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:01.275668+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-14T22:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-13T12:05:43.596319+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-13T12:05:43.596319+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-17T02:05:06.343081+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-17T03:35:36.588068+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T19:30:25.767678+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-23T20:18:07.876043+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T21:30:01.146637+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-24T04:32:19.81474+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-09T18:08:50.586112+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-10T04:14:05.07196+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-15T22:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-11T17:33:52.885788+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-14T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-11T17:33:52.885788+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-15T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T10:20:43.466674+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-14T03:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-12T10:20:43.466674+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-14T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-12T17:50:26.189669+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-15T10:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T17:50:26.189669+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-16T00:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-13T11:22:05.283891+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-14T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-13T11:22:05.283891+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-15T16:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-13T16:35:35.501919+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-14T22:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-13T16:35:35.501919+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-16T06:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-14T15:36:08.573086+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-16T16:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-15T16:01:02.504808+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-17T16:00:00+00:00",
+      "departure": "2019-03-18T08:00:00+00:00",
+      "createdDate": "2018-10-30T11:21:04.379066+00:00",
+      "isOmitted": true,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "GBLGP",
+        "name": "London Gateway Port"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-16T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:04.379066+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T05:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:04.379066+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-15T09:24:18.74103+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-15T09:24:18.74103+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-15T10:08:56.74677+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-15T12:19:00.126096+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-16T22:35:37.751166+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-16T23:19:51.244903+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-17T00:46:23.998211+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-17T01:27:39.795857+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-17T02:05:06.343081+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-17T03:35:36.618794+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T19:30:25.77794+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-24T04:32:19.851383+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-09T17:29:11.831708+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-09T21:41:02.249208+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T16:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-11T17:33:52.899075+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-16T23:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-11T17:33:52.899075+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-16T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-12T10:20:43.50878+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T10:20:43.50878+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T07:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T16:18:43.646767+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-16T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-12T16:18:43.646767+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T17:50:26.625974+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-16T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-12T17:50:26.625974+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T18:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-13T09:52:13.821246+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-17T02:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-13T09:52:13.821246+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-17T10:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-13T15:51:31.641518+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-16T18:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-13T15:51:31.641518+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-17T16:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-14T14:50:22.409215+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-18T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-14T14:50:22.409215+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-15T16:46:06.463717+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-17T18:30:00+00:00",
+      "departure": "2019-03-19T08:30:00+00:00",
+      "createdDate": "2018-10-30T11:21:07.223211+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "BEANR",
+        "name": "Antwerpen"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-17T21:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:07.223211+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-19T03:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:07.223211+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-17T20:43:20.988291+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-17T21:17:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-02-17T20:43:20.988291+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T20:18:07.90598+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-23T20:55:17.346814+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T21:30:01.146637+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-24T05:15:44.661598+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-09T18:08:50.613959+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-10T04:14:05.104189+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-19T11:50:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-11T17:33:52.916718+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-18T06:07:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-11T17:33:52.916718+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-19T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-12T11:04:32.257065+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-17T21:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-12T11:04:32.257065+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-19T11:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-13T09:52:13.832623+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-18T08:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-13T09:52:13.832623+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-18T00:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-13T17:21:13.04809+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-19T03:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-13T17:21:13.04809+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-20T01:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-14T15:36:08.592665+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-18T22:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-14T15:36:08.592665+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-18T21:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-15T16:01:02.528805+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-17T18:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-15T16:01:02.528805+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-16T20:15:50.797195+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-17T04:21:58.776067+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-19T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T14:57:56.470187+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-19T08:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-19T12:14:57.254765+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-20T02:16:00+00:00",
+      "departure": "2019-03-21T09:00:00+00:00",
+      "createdDate": "2019-03-15T16:46:06.565748+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "GBLGP",
+        "name": "London Gateway Port"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-20T03:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-15T16:46:06.565748+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-19T11:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-15T16:46:06.565748+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-16T20:15:51.188587+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-17T04:21:58.784954+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-19T22:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T12:37:54.19182+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-20T14:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T12:37:54.19182+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-20T16:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T18:01:59.900201+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-20T00:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T18:01:59.900201+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-21T09:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-19T11:30:39.960045+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-20T02:16:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-20T05:04:02.888558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-21T11:16:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-20T05:04:02.888558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-21T09:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-20T16:10:50.434959+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-20T13:00:00+00:00",
+      "departure": "2019-03-21T05:00:00+00:00",
+      "createdDate": "2018-10-30T11:21:10.670126+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "FRLEH",
+        "name": "Le Havre"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-21T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:10.670126+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-20T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-10-30T11:21:10.670126+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-26T13:00:00+00:00",
+      "departure": "2019-03-27T10:00:00+00:00",
+      "createdDate": "2018-11-29T00:06:26.742761+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "MAPTM",
+        "name": "Tanger Med"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-24T07:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:26.742761+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-24T22:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:26.742761+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-24T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:17.772821+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-24T21:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-19T20:45:18.042664+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-24T07:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:13.566889+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-24T22:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-01-03T12:43:13.935813+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-24T23:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-02-23T00:36:40.065234+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-23T00:36:40.065234+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-02-23T20:55:17.354471+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-02-24T04:32:19.864307+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-09T18:44:15.734356+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-09T20:31:09.940067+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-09T21:41:02.257268+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-10T04:14:05.116692+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-25T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-14T15:36:08.604497+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-24T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-14T15:36:08.604497+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-25T00:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-15T16:46:06.614391+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-24T08:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-15T16:46:06.614391+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-16T20:53:02.869276+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-17T04:21:58.793036+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-25T11:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T13:23:57.917751+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-24T19:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T13:23:57.917751+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-25T09:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T17:17:45.054323+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-24T17:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T17:17:45.054323+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-26T06:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-19T12:14:57.673102+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-25T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-19T12:14:57.673102+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-27T09:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-21T20:19:17.650831+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-26T17:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-21T20:19:17.650831+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-03-27T10:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-22T19:07:38.061146+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-26T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-22T19:07:38.061146+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-04-03T01:00:00+00:00",
+      "departure": "2019-04-03T15:00:00+00:00",
+      "createdDate": "2018-11-29T00:06:27.43839+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "SAJED",
+        "name": "Jeddah"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-02T01:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:27.43839+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-01T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:27.43839+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-01T20:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-03T00:42:27.51148+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-03T00:42:27.51148+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-09T18:44:15.734356+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-09T21:41:02.285912+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-16T19:37:02.478864+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-17T04:21:58.82311+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-02T07:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T13:23:57.932963+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-01T17:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T13:23:57.932963+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-01T16:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T18:01:59.915206+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-01T02:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T18:01:59.915206+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-02T00:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-19T11:30:39.975015+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-02T14:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-19T11:30:39.975015+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-03T14:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-21T21:03:16.585403+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-03T00:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-21T21:03:16.585403+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-03T16:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-22T17:37:03.843273+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-03T02:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-22T17:37:03.843273+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-23T20:29:00.058462+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-23T21:14:08.294872+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-03T14:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-23T22:49:51.315803+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-03T00:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-23T22:49:51.315803+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-03T16:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-23T23:36:59.749542+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-03T02:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-23T23:36:59.749542+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-03T14:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-27T11:52:39.888736+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-03T00:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-27T11:52:39.888736+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-30T21:06:24.570717+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-31T01:32:09.171999+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-03T01:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-02T15:02:10.640534+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-03T15:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-02T15:02:10.640534+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-04-08T18:54:00+00:00",
+      "departure": "2019-04-09T22:30:00+00:00",
+      "createdDate": "2018-11-29T00:06:28.099297+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "AEJEA",
+        "name": "Jebel Ali"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-07T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:28.099297+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-08T18:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:28.099297+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-10T04:14:05.123379+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-16T20:15:51.590039+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-17T04:22:01.353092+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-09T05:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T13:24:00.45617+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-08T01:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T13:24:00.45617+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-08T18:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-18T18:01:59.955846+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-07T14:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-18T18:01:59.955846+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-07T18:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-19T11:30:40.017717+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-08T22:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-19T11:30:40.017717+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-09T22:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-21T20:19:18.065303+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-08T18:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-21T20:19:18.065303+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-09T23:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-22T17:37:03.853428+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-08T19:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-22T17:37:03.853428+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-08T17:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-03-27T11:52:39.895867+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-09T21:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-27T11:52:39.895867+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-30T21:06:24.570717+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-31T02:10:13.703358+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-02T07:01:31.761276+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-02T07:38:59.606199+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-10T00:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-05T14:32:30.37708+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-08T18:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-05T14:32:30.37708+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-08T18:54:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-08T21:15:50.292656+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-10T00:54:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-08T21:15:50.292656+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-09T22:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-09T15:42:47.813178+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-04-10T18:00:00+00:00",
+      "departure": "2019-04-11T11:30:00+00:00",
+      "createdDate": "2018-11-29T00:06:28.994258+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "PKKHI",
+        "name": "Karachi"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-11T11:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:28.994258+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-10T18:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:28.994258+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-04-13T04:30:00+00:00",
+      "departure": "2019-04-14T08:00:00+00:00",
+      "createdDate": "2018-11-29T00:06:29.711766+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "INNSA",
+        "name": "Jawaharlal Nehru (Nhava Sheva)"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-14T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:29.711766+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-13T04:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:29.711766+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-04-15T12:30:00+00:00",
+      "departure": "2019-04-16T16:30:00+00:00",
+      "createdDate": "2018-11-29T00:06:30.579065+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "INMUN",
+        "name": "Mundra"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-16T16:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:30.579065+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-15T12:30:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-11-29T00:06:30.579065+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-04-23T22:01:00+00:00",
+      "departure": "2019-04-24T22:00:00+00:00",
+      "createdDate": "2018-12-25T00:22:52.279238+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "SAJED",
+        "name": "Jeddah"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-24T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:52.279238+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-23T15:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:52.279238+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-25T05:23:39.84894+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-24T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-03-25T05:23:39.84894+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-03-30T20:24:20.255002+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-03-31T01:32:09.178354+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-13T19:55:28.641277+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-14T00:15:09.741183+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-20T20:21:42.321707+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-21T04:10:25.893216+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-24T09:01:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-23T15:10:52.879008+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-04-23T22:01:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-23T15:10:52.879008+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-04-24T22:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-24T07:23:05.698787+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-02T04:50:00+00:00",
+      "departure": "2019-05-03T04:00:00+00:00",
+      "createdDate": "2018-12-25T00:22:53.426562+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "MAPTM",
+        "name": "Tanger Med"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-01T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:53.426562+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-02T09:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:53.426562+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-02T13:33:23.170256+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-02T12:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-02T13:33:23.170256+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-01T15:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-02T13:33:23.170256+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-13T19:15:52.54916+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-14T00:15:09.7488+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-20T20:21:42.321707+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-21T04:10:25.900353+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-02T19:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-24T09:30:37.255744+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-01T22:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-24T09:30:37.255744+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-02T12:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-24T16:43:10.141131+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-01T15:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-24T16:43:10.141131+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-27T20:28:35.081289+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-28T02:12:50.949229+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-02T04:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-30T11:36:42.188697+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-03T00:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-30T11:36:42.188697+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-03T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-30T15:13:25.341278+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-02T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-30T15:13:25.341278+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-03T02:20:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-02T07:10:08.726469+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-02T03:20:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-02T07:10:08.726469+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-03T04:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-02T13:41:19.862552+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-02T04:50:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-02T13:41:19.862552+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-06T06:34:00+00:00",
+      "departure": "2019-05-07T04:34:00+00:00",
+      "createdDate": "2018-12-25T00:22:54.220738+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "NLRTM",
+        "name": "Rotterdam"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-06T05:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:54.220738+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-06T17:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:54.220738+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-07T07:07:03.410156+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-13T19:15:52.559135+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-14T00:15:09.758493+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-20T20:21:42.321707+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-21T04:10:25.906641+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-07T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-24T08:48:04.454877+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-27T19:04:24.044038+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-28T02:12:50.95581+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-07T08:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-30T14:30:39.593383+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-06T11:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-30T14:30:39.593383+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-06T08:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-02T12:58:49.788765+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-07T05:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-02T12:58:49.788765+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-07T07:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-03T10:13:31.98177+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-07T10:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-03T15:47:34.590221+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-06T11:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-03T15:47:34.590221+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-07T04:34:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-06T10:02:03.187095+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-06T06:34:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-06T10:02:03.187095+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-08T05:00:00+00:00",
+      "departure": "2019-05-10T00:00:00+00:00",
+      "createdDate": "2018-12-25T00:22:55.082261+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "DEHAM",
+        "name": "Hamburg"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-08T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:55.082261+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-09T22:01:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:55.082261+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-09T21:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-10T11:35:29.495264+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-10T11:35:29.495264+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-13T19:55:28.641277+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-14T01:00:40.272527+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-20T20:21:42.321707+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-20T23:18:47.97272+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-21T04:10:25.944997+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-21T04:53:25.006726+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-09T15:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-24T15:59:25.588517+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-08T07:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-24T15:59:25.588517+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-27T20:28:35.081289+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-28T02:12:54.380828+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-10T09:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-30T15:13:25.351566+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-08T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-30T15:13:25.351566+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-08T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-02T13:41:20.275936+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-10T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-02T13:41:20.275936+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-10T09:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-03T10:13:32.401794+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-08T13:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-03T10:13:32.401794+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-08T05:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-06T10:02:03.20073+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-09T21:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-06T10:02:03.20073+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-10T00:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-09T08:47:23.858242+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-11T11:00:00+00:00",
+      "departure": "2019-05-12T04:00:00+00:00",
+      "createdDate": "2018-12-25T00:22:56.129689+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "GBLGP",
+        "name": "London Gateway Port"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-11T11:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:56.129689+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-12T04:30:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:56.129689+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-12T04:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-12T09:05:57.884838+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-12T09:05:57.884838+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-13T19:55:28.641277+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-14T00:15:09.795558+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-20T19:47:08.270153+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-20T22:30:18.225845+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-27T19:47:36.643797+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-28T02:12:54.462512+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-12T01:14:35.839499+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-12T04:59:27.414246+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-12T20:17:00+00:00",
+      "departure": "2019-05-14T04:00:00+00:00",
+      "createdDate": "2018-12-25T00:22:57.132844+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "BEANR",
+        "name": "Antwerpen"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-14T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:57.132844+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-12T20:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:57.132844+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-12T20:17:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-14T20:43:15.06482+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-14T20:43:15.06482+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-20T19:47:08.277451+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-21T04:53:25.012852+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-27T19:04:24.050571+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-28T02:59:27.341832+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-14T04:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-09T08:03:44.236458+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-11T20:05:13.239155+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-11T20:45:29.262541+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-11T21:23:21.11126+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-12T04:59:27.423431+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-15T12:00:00+00:00",
+      "departure": "2019-05-16T04:00:00+00:00",
+      "createdDate": "2018-12-25T00:22:58.13595+00:00",
+      "isOmitted": true,
+      "service": "Indian Ocean Service",
+      "port": {
+        "id": "FRLEH",
+        "name": "Le Havre"
+      },
+      "logEntries": [
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-16T04:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:58.13595+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-15T12:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2018-12-25T00:22:58.13595+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-01-19T18:07:57.503558+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-19T10:00:00+00:00",
+      "departure": "2019-05-20T02:00:00+00:00",
+      "createdDate": "2019-04-20T01:31:06.128755+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "MAPTM",
+        "name": "Tanger Med"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-19T07:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-20T01:31:06.128755+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-19T23:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-20T01:31:06.128755+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-20T19:10:44.543894+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-21T04:10:25.986916+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-04-27T19:47:36.649002+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-04-28T02:12:54.477052+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-11T19:28:13.594301+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-11T20:05:13.255576+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-12T01:14:35.839499+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-12T04:59:27.479899+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-20T02:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-16T15:25:06.037151+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-19T10:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-05-16T15:25:06.037151+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-18T16:19:04.408321+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-19T03:42:32.092476+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-05-27T06:00:00+00:00",
+      "departure": "2019-05-27T23:00:00+00:00",
+      "createdDate": "2019-04-28T02:59:27.348383+00:00",
+      "isOmitted": false,
+      "service": "Europe Pakistan India Consortium 2",
+      "port": {
+        "id": "SAJED",
+        "name": "Jeddah"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-05-27T06:00:00+00:00",
+          "departure": null,
+          "isOmitted": null,
+          "createdDate": "2019-04-28T02:59:27.348383+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-27T20:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-04-28T02:59:27.348383+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-12T01:14:35.839499+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-12T04:59:27.495217+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": true,
+          "createdDate": "2019-05-18T16:19:04.408321+00:00"
+        },
+        {
+          "updatedField": "isOmitted",
+          "arrival": null,
+          "departure": null,
+          "isOmitted": false,
+          "createdDate": "2019-05-19T03:42:32.098581+00:00"
+        },
+        {
+          "updatedField": "departure",
+          "arrival": null,
+          "departure": "2019-05-27T23:00:00+00:00",
+          "isOmitted": null,
+          "createdDate": "2019-05-27T15:35:38.295178+00:00"
+        }
+      ]
+    }
+  ]
+}
