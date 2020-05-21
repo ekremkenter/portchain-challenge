@@ -23,6 +23,7 @@ describe("VesselController Tests", function () {
         )
       );
     await VesselController.getData();
+    sandbox.restore();
   });
 
   it("test2", async function () {
@@ -39,5 +40,6 @@ describe("VesselController Tests", function () {
       );
     });
     await VesselController.getData();
+    sandbox.restore();
   });
 });
