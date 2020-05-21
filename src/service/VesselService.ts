@@ -16,11 +16,13 @@ export default class VesselService {
     return JSON.parse(data, reviver);
   };
 
-  static init(baseURL: string = "https://import-coding-challenge-api.portchain.com/api/v2") {
+  static init(
+    baseURL: string = "https://import-coding-challenge-api.portchain.com/api/v2"
+  ) {
     this.instance = axios.create({
       baseURL,
       timeout: 10000,
-      transformResponse: [this.transformer]
+      transformResponse: [this.transformer],
     });
   }
 
@@ -35,15 +37,18 @@ export default class VesselService {
     return response.data;
   }
 
-  static async getVesselSchedule(vesselImo: number): Promise<VesselScheduleResponse> {
+  static async getVesselSchedule(
+    vesselImo: number
+  ): Promise<VesselScheduleResponse> {
     if (!this.instance) {
       throw new Error("Initialize VesselService first");
     }
-    const response = await this.instance.get<VesselScheduleResponse>(`/schedule/${vesselImo}`);
+    const response = await this.instance.get<VesselScheduleResponse>(
+      `/schedule/${vesselImo}`
+    );
     if (response.status != 200) {
       throw Error("Unable to get vessel schedule");
     }
     return response.data;
   }
-
 }

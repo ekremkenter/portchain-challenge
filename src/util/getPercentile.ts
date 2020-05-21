@@ -1,6 +1,9 @@
-export default function getPercentile(sortedNumbers: Array<number>, percentile: number) {
+export function getPercentile(
+  sortedNumbers: Array<number>,
+  percentile: number
+): number {
   if (percentile < 1 || percentile > 100 || !sortedNumbers.length) {
-    return undefined;
+    throw new Error("Invalid value");
   }
   if (percentile === 100) {
     return sortedNumbers[sortedNumbers.length - 1];
@@ -11,6 +14,15 @@ export default function getPercentile(sortedNumbers: Array<number>, percentile: 
   } else {
     return sortedNumbers[Math.floor(index)];
   }
+}
+
+export function getPercentiles(
+  sortedNumbers: Array<number>,
+  percentiles: Array<number>
+): Array<number> {
+  return percentiles.map((percentile) =>
+    getPercentile(sortedNumbers, percentile)
+  );
 }
 
 export const ascendingSort = (a: number, b: number) => a - b;

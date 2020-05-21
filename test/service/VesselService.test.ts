@@ -1,13 +1,12 @@
 import VesselService from "../../src/service/VesselService";
 import { expect } from "chai";
 
-describe("VesselService Tests", function() {
-
-  before(function() {
+describe("VesselService Tests", function () {
+  before(function () {
     VesselService.init();
   });
 
-  it("getVessels", async function() {
+  it("getVessels", async function () {
     const vessels = await VesselService.getVessels();
     expect(vessels).to.exist;
     expect(vessels).to.have.length.above(1);
@@ -15,7 +14,7 @@ describe("VesselService Tests", function() {
     expect(vessels[0]).to.haveOwnProperty("name");
   });
 
-  it("getVesselSchedule", async function() {
+  it("getVesselSchedule", async function () {
     const vesselImo = 9757187;
     const scheduleResponse = await VesselService.getVesselSchedule(vesselImo);
     expect(scheduleResponse).to.exist;
@@ -28,5 +27,4 @@ describe("VesselService Tests", function() {
     expect(scheduleResponse.portCalls[0]).to.haveOwnProperty("logEntries");
     console.log(scheduleResponse.portCalls[0].createdDate.format("DD MM YYYY"));
   });
-
 });

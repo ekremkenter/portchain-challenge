@@ -1,0 +1,32 @@
+{
+  "vessel": {
+    "imo": 0,
+    "name": "test"
+  },
+  "portCalls": [
+    {
+      "arrival": "2019-03-15T13:00:00+00:00",
+      "port": {
+        "id": "DJPOD",
+        "name": "Djibouti"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-15T18:00:00+00:00",
+          "createdDate": "2019-03-01T00:00:00+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-15T10:00:00+00:00",
+          "createdDate": "2019-03-13T12:59:00+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-15T13:00:00+00:00",
+          "createdDate": "2019-03-15T13:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,3 @@
-import getPercentile, { ascendingSort } from "./getPercentile";
+import { ascendingSort, getPercentile, getPercentiles } from "./getPercentile";
 
-export { getPercentile, ascendingSort };
+export { getPercentile, getPercentiles, ascendingSort };
