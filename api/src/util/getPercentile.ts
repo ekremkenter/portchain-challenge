@@ -11,9 +11,8 @@ export function getPercentile(
   const index = (percentile / 100) * sortedNumbers.length;
   if (Number.isInteger(index)) {
     return (sortedNumbers[index - 1] + sortedNumbers[index]) / 2;
-  } else {
-    return sortedNumbers[Math.floor(index)];
   }
+  return sortedNumbers[Math.floor(index)];
 }
 
 export function getPercentiles(
@@ -24,4 +23,4 @@ export function getPercentiles(
   return percentiles.map(percentile => getPercentile(numbers, percentile));
 }
 
-export const ascendingSort = (a: number, b: number) => a - b;
+export const ascendingSort = (a: number, b: number): number => a - b;

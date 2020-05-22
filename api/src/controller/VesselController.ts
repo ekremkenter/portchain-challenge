@@ -1,8 +1,8 @@
+import { Moment } from "moment";
+import { orderBy } from "lodash";
 import { VesselService } from "../service";
 import { LogEntry, Vessel, VesselScheduleResponse } from "../models";
 import { getPercentiles } from "../util";
-import { Moment } from "moment";
-import { orderBy } from "lodash";
 
 interface Data {
   portDelayNthPercentiles: Array<number>;
@@ -29,10 +29,9 @@ const portDelayNthPercentiles = [5, 50, 80];
 const portCallDurationNthPercentiles = [5, 20, 50, 75, 90];
 
 export default class VesselController {
-
   readonly service: VesselService;
 
-  constructor(baseUrl: string = "https://import-coding-challenge-api.portchain.com/api/v2") {
+  constructor(baseUrl = "https://import-coding-challenge-api.portchain.com/api/v2") {
     this.service = new VesselService(baseUrl);
   }
 
@@ -40,61 +39,60 @@ export default class VesselController {
     const data = {
       portDelayNthPercentiles,
       portCallDurationNthPercentiles,
-      vesselPortCallDelays: new Array<VesselPortCallDelay>()
+      vesselPortCallDelays: new Array<VesselPortCallDelay>(),
     } as Data;
     const vessels = await this.service.getVessels();
     const vesselSchedules: Array<VesselScheduleResponse> = await Promise.all(
-      vessels.map((vessel) => this.service.getVesselSchedule(vessel.imo))
+      vessels.map((vessel) => this.service.getVesselSchedule(vessel.imo)),
     );
     const portArrivalCounts = new Map<string, number>();
     const portCallCounts = new Map<string, number>();
 
-    let portCallDurations = new Array<number>();
+    const portCallDurations = new Array<number>();
     for (const { vessel, portCalls } of vesselSchedules) {
-      let delaysInMinute2DaysAgo = new Array<number>();
-      let delaysInMinute7DaysAgo = new Array<number>();
-      let delaysInMinute14DaysAgo = new Array<number>();
+      const delaysInMinute2DaysAgo = new Array<number>();
+      const delaysInMinute7DaysAgo = new Array<number>();
+      const delaysInMinute14DaysAgo = new Array<number>();
       for (const portCall of portCalls) {
         const port = portCall.port.name;
         portCallCounts.set(port, (portCallCounts.get(port) || 0) + 1);
-        if (portCall.isOmitted) {
-          continue;
+        if (!portCall.isOmitted) {
+          portArrivalCounts.set(port, (portArrivalCounts.get(port) || 0) + 1);
+
+          if (!portCall.departure || !portCall.arrival) {
+            console.log(portCall);
+          }
+          const portCallDurationMinutes = portCall.departure?.diff(
+            portCall.arrival,
+            "minutes"
+          );
+          portCallDurations.push(portCallDurationMinutes);
+
+          console.log(port);
+          const { delay2Days, delay7Days, delay14Days } = this.getPortCallDelays(
+            portCall.logEntries,
+            portCall.arrival,
+          );
+
+          delaysInMinute2DaysAgo.push(delay2Days);
+          delaysInMinute7DaysAgo.push(delay7Days);
+          delaysInMinute14DaysAgo.push(delay14Days);
+
+          console.log("Delays", delay2Days, delay7Days, delay14Days);
         }
-        portArrivalCounts.set(port, (portArrivalCounts.get(port) || 0) + 1);
-
-        if (!portCall.departure || !portCall.arrival) {
-          console.log(portCall);
-        }
-        const portCallDurationMinutes = portCall.departure?.diff(
-          portCall.arrival,
-          "minutes"
-        );
-        portCallDurations.push(portCallDurationMinutes);
-
-        console.log(port);
-        let { delay2Days, delay7Days, delay14Days } = this.getPortCallDelays(
-          portCall.logEntries,
-          portCall.arrival
-        );
-
-        delaysInMinute2DaysAgo.push(delay2Days);
-        delaysInMinute7DaysAgo.push(delay7Days);
-        delaysInMinute14DaysAgo.push(delay14Days);
-
-        console.log("Delays", delay2Days, delay7Days, delay14Days);
       }
 
       data.vesselPortCallDelays.push({
         vessel,
         when2: getPercentiles(delaysInMinute2DaysAgo, portDelayNthPercentiles),
         when7: getPercentiles(delaysInMinute7DaysAgo, portDelayNthPercentiles),
-        when14: getPercentiles(delaysInMinute14DaysAgo, portDelayNthPercentiles)
+        when14: getPercentiles(delaysInMinute14DaysAgo, portDelayNthPercentiles),
       });
     }
 
     data.portCallDurations = getPercentiles(
       portCallDurations,
-      portCallDurationNthPercentiles
+      portCallDurationNthPercentiles,
     );
     console.log(portArrivalCounts);
     console.log(portCallCounts);
@@ -103,7 +101,7 @@ export default class VesselController {
     data.portsWithFewestPortCalls = this.sortAndGetTopN(
       portCallCounts,
       5,
-      "asc"
+      "asc",
     );
 
     console.log(data);
@@ -112,26 +110,26 @@ export default class VesselController {
 
   private getPortCallDelays(
     logEntries: Array<LogEntry>,
-    arrival: Moment
+    arrival: Moment,
   ) {
     let delay2Days = 0;
     let delay7Days = 0;
     let delay14Days = 0;
 
     const arrivalLogEntries = logEntries.filter(
-      (logEntry) => logEntry.updatedField === "arrival"
+      (logEntry) => logEntry.updatedField === "arrival",
     );
 
-    for (let i = arrivalLogEntries.length - 1; i >= 0; i--) {
+    for (let i = arrivalLogEntries.length - 1; i >= 0; i -= 1) {
       const logEntry = arrivalLogEntries[i];
       const diffBtwArrivalAndLogEntry = Math.abs(
-        arrival.diff(logEntry.createdDate, "days")
+        arrival.diff(logEntry.createdDate, "days"),
       );
       const delay = Math.round(
-        Math.abs(arrival.diff(logEntry.arrival, "hours", true))
+        Math.abs(arrival.diff(logEntry.arrival, "hours", true)),
       );
       console.log(
-        `${diffBtwArrivalAndLogEntry} days ago delay was ${delay} hours`
+        `${diffBtwArrivalAndLogEntry} days ago delay was ${delay} hours`,
       );
       if (!delay2Days && diffBtwArrivalAndLogEntry >= 2) {
         delay2Days = delay;
@@ -153,17 +151,17 @@ export default class VesselController {
   private sortAndGetTopN(
     counts: Map<string, number>,
     n: number,
-    sortOrder: "desc" | "asc"
+    sortOrder: "desc" | "asc",
   ): Array<PortCount> {
     const portCounts = [...counts.entries()].map((entry) => ({
       port: entry[0],
-      count: entry[1]
+      count: entry[1],
     }));
     console.log(portCounts);
     const orderedCounts = orderBy(
       portCounts,
       ["count", "port"],
-      [sortOrder, "asc"]
+      [sortOrder, "asc"],
     );
     return orderedCounts.slice(0, Math.min(n, orderedCounts.length));
   }

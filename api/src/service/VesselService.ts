@@ -1,6 +1,6 @@
-import { Vessel, VesselScheduleResponse } from "../models";
 import axios, { AxiosInstance } from "axios";
 import moment from "moment";
+import { Vessel, VesselScheduleResponse } from "../models";
 
 export default class VesselService {
   readonly instance: AxiosInstance;
@@ -12,11 +12,11 @@ export default class VesselService {
     this.instance = axios.create({
       baseURL,
       timeout: 10000,
-      transformResponse: [VesselService.transformer]
+      transformResponse: [VesselService.transformer],
     });
   }
 
-  static transformer = (data: any) => {
+  static transformer = (data: any): any => {
     function reviver(key: string, value: any) {
       if (["arrival", "departure", "createdDate"].includes(key) && value) {
         return moment(value);
@@ -29,7 +29,7 @@ export default class VesselService {
 
   async getVessels(): Promise<Array<Vessel>> {
     const response = await this.instance.get<Array<Vessel>>("/vessels");
-    if (response.status != 200) {
+    if (response.status !== 200) {
       throw new Error("Unable to get vessels");
     }
     return response.data;
@@ -37,9 +37,9 @@ export default class VesselService {
 
   async getVesselSchedule(vesselImo: number): Promise<VesselScheduleResponse> {
     const response = await this.instance.get<VesselScheduleResponse>(
-      `/schedule/${vesselImo}`
+      `/schedule/${vesselImo}`,
     );
-    if (response.status != 200) {
+    if (response.status !== 200) {
       throw Error("Unable to get vessel schedule");
     }
     return response.data;

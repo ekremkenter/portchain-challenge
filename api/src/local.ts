@@ -1,6 +1,6 @@
 import app from "./app";
 
 const port = 3001;
-app.listen(port, function() {
+app.listen(port, () => {
   console.log("App started at port", port);
 });

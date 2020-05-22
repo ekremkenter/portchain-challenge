@@ -1,8 +1,8 @@
 import axios from "axios";
+import { ApiResponse, Data } from "./models";
 
 export default class Api {
   readonly baseUrl: string;
-
 
   constructor(baseUrl = process.env.REACT_APP_BASE_URL) {
     if (baseUrl) {
@@ -12,11 +12,16 @@ export default class Api {
     }
   }
 
-  async getData() {
+  async getData(): Promise<Data> {
     try {
-      const response = await axios.get(`${this.baseUrl}/data`);
+      const response = await axios.get<ApiResponse>(`${this.baseUrl}/data`);
       if (response.status === 200) {
-        return response.data;
+        const apiResponse = response.data;
+        if (apiResponse.success) {
+          return apiResponse.data;
+        } else {
+          console.log(apiResponse.message);
+        }
       } else {
         console.log(response.data);
       }
@@ -25,5 +30,4 @@ export default class Api {
     }
     throw new Error("Unable to get response");
   }
-
 }
