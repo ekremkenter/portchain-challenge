@@ -1,14 +1,16 @@
 import { VesselService } from "../service";
 import { LogEntry, Vessel, VesselScheduleResponse } from "../models";
-import { ascendingSort, getPercentiles } from "../util";
+import { getPercentiles } from "../util";
 import { Moment } from "moment";
 import { orderBy } from "lodash";
 
 interface Data {
+  portDelayNthPercentiles: Array<number>;
+  portCallDurationNthPercentiles: Array<number>;
   portsWithMostArrivals: Array<PortCount>;
   portsWithFewestPortCalls: Array<PortCount>;
-  portCallDurationPercentiles: Array<number>;
-  vesselPortCallDelayPercentiles: Map<Vessel, PortCallDelayPercentile>;
+  portCallDurations: Array<number>;
+  vesselPortCallDelays: Array<VesselPortCallDelay>;
 }
 
 interface PortCount {
@@ -16,26 +18,33 @@ interface PortCount {
   count: number;
 }
 
-interface PortCallDelayPercentile {
+interface VesselPortCallDelay {
+  vessel: Vessel,
   when2: Array<number>;
   when7: Array<number>;
   when14: Array<number>;
 }
 
-const portDelayPercentiles = [5, 50, 80];
-const portCallDurationPercentiles = [5, 20, 50, 75, 90];
+const portDelayNthPercentiles = [5, 50, 80];
+const portCallDurationNthPercentiles = [5, 20, 50, 75, 90];
 
 export default class VesselController {
-  static async getData(): Promise<Data> {
+
+  readonly service: VesselService;
+
+  constructor(baseUrl: string = "https://import-coding-challenge-api.portchain.com/api/v2") {
+    this.service = new VesselService(baseUrl);
+  }
+
+  async getData(): Promise<Data> {
     const data = {
-      vesselPortCallDelayPercentiles: new Map<
-        Vessel,
-        PortCallDelayPercentile
-      >(),
+      portDelayNthPercentiles,
+      portCallDurationNthPercentiles,
+      vesselPortCallDelays: new Array<VesselPortCallDelay>()
     } as Data;
-    const vessels = await VesselService.getVessels();
+    const vessels = await this.service.getVessels();
     const vesselSchedules: Array<VesselScheduleResponse> = await Promise.all(
-      vessels.map((vessel) => VesselService.getVesselSchedule(vessel.imo))
+      vessels.map((vessel) => this.service.getVesselSchedule(vessel.imo))
     );
     const portArrivalCounts = new Map<string, number>();
     const portCallCounts = new Map<string, number>();
@@ -75,17 +84,17 @@ export default class VesselController {
         console.log("Delays", delay2Days, delay7Days, delay14Days);
       }
 
-      data.vesselPortCallDelayPercentiles.set(vessel, {
-        when2: getPercentiles(delaysInMinute2DaysAgo, portDelayPercentiles),
-        when7: getPercentiles(delaysInMinute7DaysAgo, portDelayPercentiles),
-        when14: getPercentiles(delaysInMinute14DaysAgo, portDelayPercentiles),
+      data.vesselPortCallDelays.push({
+        vessel,
+        when2: getPercentiles(delaysInMinute2DaysAgo, portDelayNthPercentiles),
+        when7: getPercentiles(delaysInMinute7DaysAgo, portDelayNthPercentiles),
+        when14: getPercentiles(delaysInMinute14DaysAgo, portDelayNthPercentiles)
       });
     }
 
-    portCallDurations.sort(ascendingSort);
-    data.portCallDurationPercentiles = getPercentiles(
+    data.portCallDurations = getPercentiles(
       portCallDurations,
-      portCallDurationPercentiles
+      portCallDurationNthPercentiles
     );
     console.log(portArrivalCounts);
     console.log(portCallCounts);
@@ -101,25 +110,7 @@ export default class VesselController {
     return data;
   }
 
-  static sortAndGetTopN(
-    counts: Map<string, number>,
-    n: number,
-    sortOrder: "desc" | "asc"
-  ): Array<PortCount> {
-    const portCounts = [...counts.entries()].map((entry) => ({
-      port: entry[0],
-      count: entry[1],
-    }));
-    console.log(portCounts);
-    const orderedCounts = orderBy(
-      portCounts,
-      ["count", "port"],
-      [sortOrder, "asc"]
-    );
-    return orderedCounts.slice(0, Math.min(n, orderedCounts.length));
-  }
-
-  private static getPortCallDelays(
+  private getPortCallDelays(
     logEntries: Array<LogEntry>,
     arrival: Moment
   ) {
@@ -157,5 +148,23 @@ export default class VesselController {
       }
     }
     return { delay2Days, delay7Days, delay14Days };
+  }
+
+  private sortAndGetTopN(
+    counts: Map<string, number>,
+    n: number,
+    sortOrder: "desc" | "asc"
+  ): Array<PortCount> {
+    const portCounts = [...counts.entries()].map((entry) => ({
+      port: entry[0],
+      count: entry[1]
+    }));
+    console.log(portCounts);
+    const orderedCounts = orderBy(
+      portCounts,
+      ["count", "port"],
+      [sortOrder, "asc"]
+    );
+    return orderedCounts.slice(0, Math.min(n, orderedCounts.length));
   }
 }

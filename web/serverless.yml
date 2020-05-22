@@ -1,0 +1,11 @@
+app: portchain-challange
+component: website@1.0.0
+name: portchain-challange-web
+
+inputs:
+  src:
+    src: ./
+    hook: npm run build
+    dist: build
+  region: eu-west-1
+  domain: ${env:domain}

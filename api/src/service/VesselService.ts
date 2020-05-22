@@ -3,7 +3,18 @@ import axios, { AxiosInstance } from "axios";
 import moment from "moment";
 
 export default class VesselService {
-  private static instance: AxiosInstance;
+  readonly instance: AxiosInstance;
+
+  constructor(baseURL: string) {
+    if (!baseURL) {
+      throw new Error("BaseURL required");
+    }
+    this.instance = axios.create({
+      baseURL,
+      timeout: 10000,
+      transformResponse: [VesselService.transformer]
+    });
+  }
 
   static transformer = (data: any) => {
     function reviver(key: string, value: any) {
@@ -16,20 +27,7 @@ export default class VesselService {
     return JSON.parse(data, reviver);
   };
 
-  static init(
-    baseURL: string = "https://import-coding-challenge-api.portchain.com/api/v2"
-  ) {
-    this.instance = axios.create({
-      baseURL,
-      timeout: 10000,
-      transformResponse: [this.transformer],
-    });
-  }
-
-  static async getVessels(): Promise<Array<Vessel>> {
-    if (!this.instance) {
-      throw new Error("Initialize VesselService first");
-    }
+  async getVessels(): Promise<Array<Vessel>> {
     const response = await this.instance.get<Array<Vessel>>("/vessels");
     if (response.status != 200) {
       throw new Error("Unable to get vessels");
@@ -37,12 +35,7 @@ export default class VesselService {
     return response.data;
   }
 
-  static async getVesselSchedule(
-    vesselImo: number
-  ): Promise<VesselScheduleResponse> {
-    if (!this.instance) {
-      throw new Error("Initialize VesselService first");
-    }
+  async getVesselSchedule(vesselImo: number): Promise<VesselScheduleResponse> {
     const response = await this.instance.get<VesselScheduleResponse>(
       `/schedule/${vesselImo}`
     );

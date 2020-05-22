@@ -17,12 +17,11 @@ export function getPercentile(
 }
 
 export function getPercentiles(
-  sortedNumbers: Array<number>,
+  numbers: Array<number>,
   percentiles: Array<number>
 ): Array<number> {
-  return percentiles.map((percentile) =>
-    getPercentile(sortedNumbers, percentile)
-  );
+  numbers.sort(ascendingSort);
+  return percentiles.map(percentile => getPercentile(numbers, percentile));
 }
 
 export const ascendingSort = (a: number, b: number) => a - b;
