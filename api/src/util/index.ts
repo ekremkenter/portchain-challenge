@@ -1,4 +1,4 @@
-import { LogEntry } from "../models";
+import { Delays, LogEntry } from "../models";
 import { Moment } from "moment";
 import { orderBy } from "lodash";
 import { PortCount } from "../../../web/src/api/models";
@@ -28,10 +28,12 @@ export function getPercentiles(
   return percentiles.map(percentile => getPercentile(numbers, percentile));
 }
 
+export const ascendingSort = (a: number, b: number): number => a - b;
+
 export function getPortCallDelays(
   logEntries: Array<LogEntry>,
   arrival: Moment
-) {
+): Delays {
   let delay2Days = 0;
   let delay7Days = 0;
   let delay14Days = 0;
@@ -81,5 +83,3 @@ export function sortAndGetTopN(
   );
   return orderedCounts.slice(0, Math.min(n, orderedCounts.length));
 }
-
-export const ascendingSort = (a: number, b: number): number => a - b;

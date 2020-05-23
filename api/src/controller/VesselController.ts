@@ -1,27 +1,6 @@
 import { VesselService } from "../service";
-import { Vessel, VesselScheduleResponse } from "../models";
+import { Data, VesselPortCallDelay, VesselScheduleResponse } from "../models";
 import { getPercentiles, getPortCallDelays, sortAndGetTopN } from "../util";
-
-interface Data {
-  portDelayNthPercentiles: Array<number>;
-  portCallDurationNthPercentiles: Array<number>;
-  portsWithMostArrivals: Array<PortCount>;
-  portsWithFewestPortCalls: Array<PortCount>;
-  portCallDurations: Array<number>;
-  vesselPortCallDelays: Array<VesselPortCallDelay>;
-}
-
-interface PortCount {
-  port: string;
-  count: number;
-}
-
-interface VesselPortCallDelay {
-  vessel: Vessel;
-  when2: Array<number>;
-  when7: Array<number>;
-  when14: Array<number>;
-}
 
 const portDelayNthPercentiles = [5, 50, 80];
 const portCallDurationNthPercentiles = [5, 20, 50, 75, 90];
