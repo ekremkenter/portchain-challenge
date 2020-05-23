@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Portchain coding challange",
   "scripts": {
+    "develop": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/local.ts",
     "watch-node": "nodemon ./dist/local.js",
     "watch-ts": "tsc -w",
-    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,green.bold\"  \"npm run watch-ts\" \"npm run watch-node\"",
     "test": "mocha --require ts-node/register test/**/*.ts",
     "test:coverage": "nyc --reporter=html mocha --require ts-node/register test/**/*.ts",
     "lint": "eslint --ext=ts --fix ./src",
@@ -27,6 +27,7 @@
     "chai": "^4.2.0",
     "eslint": "^7.0.0",
     "mocha": "^7.1.2",
+    "nodemon": "^2.0.4",
     "nyc": "^15.0.1",
     "prettier": "^2.0.5",
     "serverless-webpack": "^5.3.2",
