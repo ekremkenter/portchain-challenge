@@ -60,7 +60,7 @@ export default function DataView({ data }: { data: Data }) {
                 ))}
               </TableRow>
               <TableRow>
-                <TableCell></TableCell>
+                <TableCell />
                 {[14, 7, 2].map(_ =>
                   data.portDelayNthPercentiles.map(th => (
                     <TableCell key={th} align="right">
