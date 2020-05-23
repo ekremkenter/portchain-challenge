@@ -23,7 +23,7 @@
 2. **Deploy API** 
   * Navigate to `api` directory.
   * Run `serverless deploy`
-  * Copy the *endpoint* on logged console. It should be something like *https://someRandomID.execute-api.us-east-1.amazonaws.com/dev*
+  * Copy the *endpoint* on logged console. It should be something like `https://someRandomID.execute-api.us-east-1.amazonaws.com/dev`
   * Navigate to that endpoint to make sure it is deployed successfully. You should see 
   ```json
 {
@@ -40,7 +40,7 @@
   REACT_APP_BASE_URL=https://someRandomID.execute-api.us-east-1.amazonaws.com/dev
   ```
   * Run `serverless deploy` if you just edited `.env` file, or `serverless deploy --stage test` for `.env.test`
-  * Copy url logged on console. It should be something like *https://someRandomID.cloudfront.net* Since our API has cors protection we need to add this url to safe domain list once. Change `allowedOrigins` variable in `/api/src/app.ts` to include your deployment url and *redeploy API*
+  * Copy url logged on console. It should be something like `https://someRandomID.cloudfront.net` Since our API has cors protection we need to add this url to safe domain list once. Change `allowedOrigins` variable in `/api/src/app.ts` to include your deployment url and *redeploy API*
   
   
 
