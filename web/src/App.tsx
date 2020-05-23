@@ -15,7 +15,7 @@ import {
 } from "@material-ui/core";
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 
-function App() {
+export default function App() {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<Data>();
 
@@ -209,5 +209,3 @@ function PortCountChart({ data }: { data: Array<PortCount> }) {
     </ResponsiveContainer>
   );
 }
-
-export default App;
