@@ -19,7 +19,7 @@
 
 ## :rocket: Deploy
 ### Serverless on AWS
-1. **Follow instructions on [Serverless AWS Credential Guide](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/) to add credentials on your host
+1. **Follow instructions on [Serverless AWS Credential Guide](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/) to add credentials on your host**
 2. **Deploy API** 
   * Navigate to `api` directory.
   * Run `serverless deploy`
