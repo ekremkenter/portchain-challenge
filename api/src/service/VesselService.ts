@@ -12,7 +12,7 @@ export default class VesselService {
     this.instance = axios.create({
       baseURL,
       timeout: 10000,
-      transformResponse: [VesselService.transformer],
+      transformResponse: [VesselService.transformer]
     });
   }
 
@@ -37,7 +37,7 @@ export default class VesselService {
 
   async getVesselSchedule(vesselImo: number): Promise<VesselScheduleResponse> {
     const response = await this.instance.get<VesselScheduleResponse>(
-      `/schedule/${vesselImo}`,
+      `/schedule/${vesselImo}`
     );
     if (response.status !== 200) {
       throw Error("Unable to get vessel schedule");

@@ -2,9 +2,7 @@ import React from "react";
 import { getByText, render, screen, wait } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import axios from "axios";
-
 import App from "../App";
-
 import mockData from "../__mocks__/data.json";
 
 jest.mock("axios");

@@ -1,5 +1,4 @@
 import React from "react";
-import { Data } from "../api/models";
 import {
   Card,
   CardContent,
@@ -11,37 +10,24 @@ import {
   Typography
 } from "@material-ui/core";
 import PortCountChart from "./PortCountChart";
+import { Data } from "../api/models";
+import DataCard from "./DataCard";
 
 export default function DataView({ data }: { data: Data }) {
   return (
     <div role="data">
-      <Card className="card">
-        <CardContent>
-          <Typography variant="h6" gutterBottom>
-            The top 5 ports with the most arrivals, and the corresponding number
-            of total port calls for each port.
-          </Typography>
-          <PortCountChart data={data.portsWithMostArrivals} />
-        </CardContent>
-      </Card>
-
-      <Card className="card">
-        <CardContent>
-          <Typography variant="h6" gutterBottom>
-            The top 5 ports that have the fewest port calls, and the number of
-            total port calls for each port
-          </Typography>
-
-          <PortCountChart data={data.portsWithFewestPortCalls} />
-        </CardContent>
-      </Card>
-
-      <Card className="card">
-        <CardContent>
-          <Typography variant="h6" gutterBottom>
-            The percentiles of port call durations
-          </Typography>
-
+      <DataCard
+        title="The top 5 ports with the most arrivals, and the corresponding number of total port calls for each port."
+        child={<PortCountChart data={data.portsWithMostArrivals} />}
+      />
+      <DataCard
+        title="The top 5 ports that have the fewest port calls, and the number of
+            total port calls for each port"
+        child={<PortCountChart data={data.portsWithFewestPortCalls} />}
+      />
+      <DataCard
+        title="The percentiles of port call durations"
+        child={
           <Table aria-label="Port call durations">
             <TableHead>
               <TableRow>
@@ -58,15 +44,11 @@ export default function DataView({ data }: { data: Data }) {
               </TableRow>
             </TableBody>
           </Table>
-        </CardContent>
-      </Card>
-
-      <Card className="card">
-        <CardContent>
-          <Typography variant="h6" gutterBottom>
-            Port call delays
-          </Typography>
-
+        }
+      />
+      <DataCard
+        title="Port call delays"
+        child={
           <Table aria-label="Port call delays">
             <TableHead>
               <TableRow>
@@ -105,8 +87,8 @@ export default function DataView({ data }: { data: Data }) {
               )}
             </TableBody>
           </Table>
-        </CardContent>
-      </Card>
+        }
+      />
     </div>
   );
 }

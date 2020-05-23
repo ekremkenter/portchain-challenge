@@ -22,18 +22,6 @@ test("response is not success", async () => {
   await expect(new Api("test").getData()).rejects.toThrow();
 });
 
-test("response is not success", async () => {
-  axiosMock.get.mockResolvedValue({
-    status: 200,
-    data: {
-      success: false,
-      message: "Error"
-    }
-  });
-
-  await expect(new Api("test").getData()).rejects.toThrow();
-});
-
 test("request fails", async () => {
   axiosMock.get.mockRejectedValue({
     status: 500

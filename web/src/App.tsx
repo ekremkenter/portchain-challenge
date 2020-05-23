@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
+import { CircularProgress } from "@material-ui/core";
+import DataView from "./views/DataView";
 import { Data } from "./api/models";
 import Api from "./api/Api";
-import {
-  Card,
-  CardContent,
-  CircularProgress,
-  Typography
-} from "@material-ui/core";
-import DataView from "./views/DataView";
+import "./App.css";
+import DataCard from "./views/DataCard";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -36,14 +32,7 @@ export default function App() {
         </div>
       )}
       {data && <DataView data={data} />}
-      <Card className="card">
-        <CardContent>
-          <Typography variant="h6" gutterBottom>
-            Base URL
-          </Typography>
-          {process.env.REACT_APP_BASE_URL}
-        </CardContent>
-      </Card>
+      <DataCard title="Base URL" child={<>process.env.REACT_APP_BASE_URL</>} />
     </div>
   );
 }

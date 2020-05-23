@@ -48,10 +48,10 @@ describe("VesselController Tests", function() {
 
     expect(data.vesselPortCallDelays).to.deep.eq([
       {
-        vessel: { imo: 0, name: 'test' },
-        when2: [ 3, 15, 27 ],
-        when7: [ 5, 12, 19 ],
-        when14: [ 5, 12, 19 ]
+        vessel: { imo: 0, name: "test" },
+        when2: [3, 15, 27],
+        when7: [5, 12, 19],
+        when14: [5, 12, 19]
       }
     ]);
 
