@@ -5,6 +5,7 @@ import Api from "./api/Api";
 import {
   Card,
   CardContent,
+  CircularProgress,
   Table,
   TableBody,
   TableCell,
@@ -15,18 +16,30 @@ import {
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 
 function App() {
+  const [loading, setLoading] = useState(true);
   const [data, setData] = useState<Data>();
 
   useEffect(function() {
     const api = new Api();
     api
       .getData()
-      .then(setData)
-      .catch(alert);
+      .then(data => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch(e => {
+        setLoading(false);
+        alert(e);
+      });
   }, []);
 
   return (
     <div className="App">
+      {loading && (
+        <div className="flex-center" role="loading">
+          <CircularProgress />
+        </div>
+      )}
       {data && <DataView data={data} />}
       <Card className="card">
         <CardContent>
@@ -44,7 +57,7 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#e53935"];
 
 function DataView({ data }: { data: Data }) {
   return (
-    <>
+    <div role="data">
       <Card className="card">
         <CardContent>
           <Typography variant="h6" gutterBottom>
@@ -83,7 +96,7 @@ function DataView({ data }: { data: Data }) {
             <TableBody>
               <TableRow>
                 {data.portCallDurations.map((duration, index) => (
-                  <TableCell>{duration} min</TableCell>
+                  <TableCell key={duration}>{duration} min</TableCell>
                 ))}
               </TableRow>
             </TableBody>
@@ -111,7 +124,9 @@ function DataView({ data }: { data: Data }) {
                 <TableCell></TableCell>
                 {[14, 7, 2].map(_ =>
                   data.portDelayNthPercentiles.map(th => (
-                    <TableCell align="right">P{th}</TableCell>
+                    <TableCell key={th} align="right">
+                      P{th}
+                    </TableCell>
                   ))
                 )}
               </TableRow>
@@ -135,7 +150,7 @@ function DataView({ data }: { data: Data }) {
           </Table>
         </CardContent>
       </Card>
-    </>
+    </div>
   );
 }
 
