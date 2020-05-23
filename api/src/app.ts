@@ -1,6 +1,8 @@
 import express, { Request, Response } from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
+import VesselController from "./controller/VesselController";
+import { VesselService } from "./service";
 
 const app = express();
 // use body parser so we can get info from POST and/or URL parameters
@@ -33,182 +35,21 @@ app.get("/", (_: Request, res: Response) => {
   });
 });
 
+const baseUrl = "https://import-coding-challenge-api.portchain.com/api/v2";
 app.get("/data", async (_: Request, res: Response) => {
-  res.json({
-    success: true,
-    data: {
-      portDelayNthPercentiles: [5, 50, 80],
-      portCallDurationNthPercentiles: [5, 20, 50, 75, 90],
-      vesselPortCallDelays: [
-        {
-          vessel: {
-            imo: 9303807,
-            name: "ABIDJAN EXPRESS"
-          },
-          when2: [1, 6, 18.5],
-          when7: [1, 27, 40.5],
-          when14: [7, 51, 73.5]
-        },
-        {
-          vessel: {
-            imo: 9314935,
-            name: "AS CAROLINA"
-          },
-          when2: [4, 17.5, 36],
-          when7: [15, 56.5, 71],
-          when14: [7, 58, 98]
-        },
-        {
-          vessel: {
-            imo: 9335173,
-            name: "COSCO BOSTON"
-          },
-          when2: [0, 5, 17.5],
-          when7: [0, 6, 20.5],
-          when14: [0, 30, 51]
-        },
-        {
-          vessel: {
-            imo: 9337626,
-            name: "NYK CONSTELLATION"
-          },
-          when2: [1, 5, 13],
-          when7: [1, 10.5, 23],
-          when14: [1, 13.5, 27]
-        },
-        {
-          vessel: {
-            imo: 9387425,
-            name: "EMPIRE"
-          },
-          when2: [1, 6, 13],
-          when7: [1, 8, 17],
-          when14: [0, 8, 22]
-        },
-        {
-          vessel: {
-            imo: 9388340,
-            name: "ONE COSMOS"
-          },
-          when2: [1, 3, 14],
-          when7: [0, 5.5, 17],
-          when14: [0, 11.5, 49]
-        },
-        {
-          vessel: {
-            imo: 9461867,
-            name: "APL CHONGQING"
-          },
-          when2: [0, 4, 8],
-          when7: [0, 2, 8],
-          when14: [0, 2, 8]
-        },
-        {
-          vessel: {
-            imo: 9485007,
-            name: "YM MASCULINITY"
-          },
-          when2: [0, 3, 11],
-          when7: [0, 3.5, 15],
-          when14: [0, 3, 34]
-        },
-        {
-          vessel: {
-            imo: 9597549,
-            name: "APL MIAMI"
-          },
-          when2: [0, 5, 15],
-          when7: [0, 2, 11],
-          when14: [0, 2, 11]
-        },
-        {
-          vessel: {
-            imo: 9732319,
-            name: "AL MASHRAB"
-          },
-          when2: [1, 5, 24],
-          when7: [1, 16, 29.5],
-          when14: [1, 17, 35.5]
-        },
-        {
-          vessel: {
-            imo: 9757187,
-            name: "MILANO BRIDGE"
-          },
-          when2: [1, 9, 26],
-          when7: [1, 11, 50],
-          when14: [1, 15.5, 92]
-        },
-        {
-          vessel: {
-            imo: 9769271,
-            name: "MOL TRIUMPH"
-          },
-          when2: [1, 6.5, 13],
-          when7: [2, 11, 30],
-          when14: [2, 13, 31]
-        }
-      ],
-      portCallDurations: [498, 721, 1119, 1703.5, 2580],
-      portsWithMostArrivals: [
-        {
-          port: "Kaohsiung",
-          count: 26
-        },
-        {
-          port: "Yantian Pt",
-          count: 25
-        },
-        {
-          port: "Hamburg",
-          count: 24
-        },
-        {
-          port: "Tokyo",
-          count: 20
-        },
-        {
-          port: "Singapore",
-          count: 17
-        }
-      ],
-      portsWithFewestPortCalls: [
-        {
-          port: "Balboa",
-          count: 1
-        },
-        {
-          port: "Bremerhaven",
-          count: 1
-        },
-        {
-          port: "Cartagena",
-          count: 1
-        },
-        {
-          port: "Caucedo",
-          count: 1
-        },
-        {
-          port: "Prince Rupert",
-          count: 1
-        }
-      ]
-    }
-  });
-  // try {
-  //   const controller = new VesselController();
-  //   const data = await controller.getData();
-  //   res.json({
-  //     success: true,
-  //     data
-  //   });
-  // } catch (e) {
-  //   res.json({
-  //     success: false,
-  //     message: e.toString()
-  //   });
-  // }
+  try {
+    const controller = new VesselController(new VesselService(baseUrl));
+    const data = await controller.getData();
+    res.json({
+      success: true,
+      data
+    });
+  } catch (e) {
+    res.json({
+      success: false,
+      message: e.toString()
+    });
+  }
 });
 
 export default app;

@@ -6,6 +6,7 @@
   "portCalls": [
     {
       "arrival": "2019-03-15T13:00:00+00:00",
+      "departure": "2019-03-15T14:00:00+00:00",
       "port": {
         "id": "DJPOD",
         "name": "Djibouti"
@@ -25,6 +26,47 @@
           "updatedField": "arrival",
           "arrival": "2019-03-15T13:00:00+00:00",
           "createdDate": "2019-03-15T13:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-16T13:00:00+00:00",
+      "departure": "2019-03-16T17:00:00+00:00",
+      "port": {
+        "id": "DJPOD",
+        "name": "Djibouti"
+      },
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-15T18:00:00+00:00",
+          "createdDate": "2019-03-01T00:00:00+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-15T10:00:00+00:00",
+          "createdDate": "2019-03-13T12:59:00+00:00"
+        },
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-15T13:00:00+00:00",
+          "createdDate": "2019-03-15T13:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "arrival": "2019-03-16T13:00:00+00:00",
+      "departure": "2019-03-17T13:00:00+00:00",
+      "port": {
+        "id": "TEST",
+        "name": "Test"
+      },
+      "isOmitted": true,
+      "logEntries": [
+        {
+          "updatedField": "arrival",
+          "arrival": "2019-03-15T13:00:00+00:00",
+          "createdDate": "2019-03-01T13:00:00+00:00"
         }
       ]
     }
